@@ -53,9 +53,12 @@ export default {
       if (editorScriptTag === null) {
         configScriptTag = document.createElement('script');
         configScriptTag.type = 'text/javascript'; configScriptTag.src = this.ueditorPath + 'ueditor.config.js'; configScriptTag.id = 'configScriptTag';
-
+        // 为了保证js加载执行的顺序
+        configScriptTag.async = false
         editorScriptTag = document.createElement('script');
         editorScriptTag.type = 'text/javascript'; editorScriptTag.src = this.ueditorPath + 'ueditor.all.js'; editorScriptTag.id = 'editorScriptTag';
+        // 为了保证js加载执行的顺序
+        editorScriptTag.async = false
         let s = document.getElementsByTagName('head')[0];
         s.appendChild(configScriptTag);
         s.appendChild(editorScriptTag);

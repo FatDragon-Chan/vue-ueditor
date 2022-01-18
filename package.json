@@ -1,15 +1,15 @@
 {
-  "name": "vue-ueditor",
-  "version": "0.1.3",
+  "name": "@lx-frontend/vue-ueditor",
+  "version": "0.1.4",
   "description": "a wrapper of UEditor for vue 2.x",
   "author": "津玮<cia.fbi.007@hotmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SilentTiger/vue-ueditor.git"
+    "url": "git+https://github.com/FatDragon-Chan/vue-ueditor.git"
   },
-  "homepage": "https://github.com/SilentTiger/vue-ueditor#readme",
+  "homepage": "https://github.com/FatDragon-Chan/vue-ueditor#readme",
   "bugs": {
-    "url": "https://github.com/SilentTiger/vue-ueditor/issues"
+    "url": "https://github.com/FatDragon-Chan/vue-ueditor/issues"
   },
   "private": false,
   "scripts": {
@@ -19,8 +19,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "./src/index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^6.7.2",
     "babel-core": "^6.22.1",
